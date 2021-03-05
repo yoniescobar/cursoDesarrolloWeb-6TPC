@@ -1,0 +1,17 @@
+
+h1{                          /* llamada por elemento */
+    color: blue;
+    font-size: 75px;
+}
+
+.contenido{
+    color: rgb(253, 7, 233);   /* llamada por class */
+    font-size: 50px;
+}
+
+#clave{
+    color: rgb(7, 253, 81);  /* llamada por id */
+    font-size: 50px;
+}
+
+/* Selectores*/
