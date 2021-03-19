@@ -1,0 +1,22 @@
+html{
+    background-color: gray;
+}
+
+a, div{
+    background-color: gold;
+    margin-bottom: 30px;
+    padding: 10px;
+    padding-top: 20px;
+    border: 1px solid black;
+}
+
+h1{
+    color: blue;
+}
+
+#sub{
+    color: red;
+}
+.caja1{
+    color: cornflowerblue;
+}
