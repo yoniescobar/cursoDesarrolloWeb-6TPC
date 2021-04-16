@@ -1,0 +1,57 @@
+body{
+    background-image: url('../img/fondo.png');
+    font-family: helvetica;
+    color: #fff;
+}
+
+
+.menu{
+    list-style: none;
+    background: rgb(32, 7, 173);
+    width: 80%;
+    max-width: 1000px;
+    margin: 20px auto;
+    text-align: center;
+    box-shadow: 10px 10px 25px #aaaaaa;
+}
+.menu li{
+    display: inline-block;
+    
+}
+
+.menu li a{
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    padding: 10px;
+}
+
+.menu li a:hover{
+    background: rgb(247, 192, 13);
+    font-size: 17px;
+}
+
+
+.tabla,td,th{
+    border: 2px solid rgb(151, 3, 3);
+   }
+   
+   .tabla{
+       border-collapse: collapse;
+       width: 800px;
+       text-align: center;
+   }
+   
+   th,td{
+       padding: 10px 20px;
+   }
+   
+   th{
+       background: rgb(5, 123, 219);
+       color: #fff;
+   }
+   
+   tr:hover{
+       background: sandybrown;
+       color:seashell;
+   }

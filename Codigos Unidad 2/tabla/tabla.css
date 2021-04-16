@@ -1,0 +1,28 @@
+body{
+    /* background-image: url('fondo.png'); */
+    font-family: sans-serif;
+}
+
+.tabla,td,th{
+ border: 2px solid rgb(151, 3, 3);
+}
+
+.tabla{
+    border-collapse: collapse;
+    width: 800px;
+    text-align: center;
+}
+
+th,td{
+    padding: 10px 20px;
+}
+
+th{
+    background: rgb(5, 123, 219);
+    color: #fff;
+}
+
+tr:hover{
+    background: sandybrown;
+    color:seashell;
+}
