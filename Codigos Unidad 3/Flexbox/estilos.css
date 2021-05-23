@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #f2f2f2;
+    font-family: sans-serif;
+}
+
+.contenedor{ /*contenedor Padre*/
+    width: 80%;
+    max-width: 1000px;
+    height: 500px;
+    background: burlywood;
+     display: flex; 
+     flex-direction: row-reverse; 
+     flex-wrap: wrap;
+     justify-content: center; /*Horizontal*/
+     align-items: center; /*Vertical*/
+     
+}
+
+.caja{
+    width: 100px;
+    height: 100px;
+    background: #f79256;
+    text-align: center ;
+    margin: 20px;
+    padding: 20px;
+    font-size: 40px;
+    color: #fff;
+
+}
+
+.uno{
+    background: #ff0000;
+}
+
+.dos{
+    background: #001969;
+}
+
