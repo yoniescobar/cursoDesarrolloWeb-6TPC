@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #faf3f3;
+    font-family: 'Dancing Script',sans-serif;
+}
+.icono{
+    background-color: blue;
+    color: cornsilk;
+
+}
+.container{
+    width: 90%;
+    margin: 20px auto;
+}
+header{
+    padding: 60px;
+    background-color: rgb(114, 5, 20);
+    color: #fff;
+    text-align: center;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(1, 1, 92);
+}
+
+nav a{
+    color: #fff;
+    padding: 17px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    background-color: rgb(3, 3, 185);
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+aside{
+    flex: 30%;
+    background-color: rgb(229, 192, 192);
+    padding: 30px;
+    /* order: 1; */
+}
+
+section{
+    flex: 70%;
+    background-color: rgba(6, 6, 128, 0.288);
+    padding: 35px;
+}
+
+footer{
+    padding: 30px;
+    background-color: rgb(1, 1, 92);
+    color: #fff;
+    text-align: center;
+    flex: 100%;
+}
+@media screen and (max-width:750px){
+    nav,main{
+        flex-direction: column;
+    }
+}

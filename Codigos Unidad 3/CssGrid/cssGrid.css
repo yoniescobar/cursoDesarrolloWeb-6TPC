@@ -1,0 +1,52 @@
+*{
+    font-family: sans-serif;
+}
+.container{
+    width: 90%;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 15px;
+    
+    
+}
+
+.caja{
+    background: #fff;
+    padding: 0px 0px;
+    border-radius: 15px;
+    border-color: currentColor;
+    color: #fff;
+    border: 2px solid rgb(133, 127, 127);
+    
+}
+h2{
+     font-size: 15px;
+     padding: 10px;
+     margin: 0px;
+     display: block;
+     border-radius: 13px 13px 0px 0px;
+     background: rgb(3, 5, 126);
+    
+   
+}
+p{
+    color: red;
+}
+
+.dos{
+    background: rgb(59, 5, 209);
+}
+.tres{
+    background: rgb(9, 240, 29);
+   
+}
+.caja:hover{
+    border: 2px solid rgb(0, 0, 0);
+}
+
+@media screen and (max-width: 750px) {
+    .container, div{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
